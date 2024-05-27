@@ -27,6 +27,7 @@ input, textarea {
   color: #1d1b1b;
   border: 1px solid white;
   background-color: #1d1b1b;
+
 }
 
 button {
@@ -71,4 +72,8 @@ button {
   align-items: center;
   justify-content: center;
   border-bottom: none;
+}
+
+#campos ::placeholder{
+  color: red;
 }

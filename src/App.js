@@ -18,31 +18,31 @@ const App = () => {
       <p></p>
     <form onSubmit={handleSubmit}>
     
-      <div >
+      <div id="campos">
       <label>
         <InputCustomizado
           type="text"
-          defaultValue="Nome"
-          placeholder=""
+          defaultValue=""
+          placeholder="Nome"
         />
       </label>
       </div>
-      <div class="campos">
+      <div id="campos">
       <label>
         <InputCustomizado
           type="email"
-          defaultValue="E-mail"
-          placeholder=""
+          defaultValue=""
+          placeholder="E-mail"
         />
       </label>
       </div>
       
-      <div>
+      <div id="campos">
       <label>
         <InputCustomizado
           type="number"
-          defaultValue="Telefone"
-          placeholder=""
+          defaultValue=""
+          placeholder="Telefone"
         />
       </label>
       </div>
